@@ -11,45 +11,12 @@ Ah, et il faut aussi pouvoir changer la couleur du thème ! Il y a trois pastill
 ## Slider
 
 Un beau slider d'images est prévu sur la page. Il doit permettre de faire défiler des images de superbes paysages de vacances.
-Actuellement, il ne fonctionne pas, mais notre intégrateur prétend que c'est facile d'ajouter des images, il suffit de suivre le guide qu'il a fait en dessous.
 
-C'est très bien mais je ne comprends pas ce guide ! Moi ce que je veux, c'est que quand je clique sur les flèches latérales, ça passe à l'image suivante !
+quand je clique sur les flèches latérales, ça passe à l'image suivante !
 
-<details>
-  <summary>Guide pour ajouter des images</summary>
+
+Le mieux c'est d'utiliser un tableau avec le nom de l'image pour générer les balises automatiquement avec JS 😉
   
-  Pour ajouter des images dans le slider, il suffit d'ajouter des balises `img` dans la section `.slider`.
-  Chaque image doit avoir la classe `slider__img` pour être bien stylée et l'image affichée doit avoir en plus la classe `slider__img--current`.
-  
-  
-  Voici un exemple de slider avec les images générées : 
-  
-  ```html
-   <section class="slider">
-        <!-- la classe slider__img--current permet d'afficher l'image -->
-        <img class="slider__img slider__img--current" src="img/ocean.jpg" alt="Partir à la plage">
-        <!-- sans la classe, l'image est cachée -->
-        <img class="slider__img" src="img/ski.jpg" alt="Partir à la montagne">
-        <img class="slider__img" src="img/city.jpg" alt="Partir à l'étranger">
-     
-        <button class="btn slider__btn" type="button" aria-label="Précédent">&lt;</button>
-        <button class="btn slider__btn" type="button" aria-label="Suivant">&gt;</button>
-    </section>
-  ```
-  
-  Le mieux c'est d'utiliser un tableau avec le nom de l'image pour générer les balises automatiquement avec JS 😉
-  
-  Exemple de tableau : 
-  
-  ```js
-  const sliderImages = [
-     'ocean.jpg',
-     'ski.jpg',
-     'city.jpg'
-  ];
-  ```
-  
-</details>
 
 ## Newsletter
 
@@ -92,7 +59,6 @@ Sur chaque destination, il y a une icône 💚. Cette dernière sert à mettre l
 Donc ce qu'on veut, c'est que si on clique dessus, ça affiche aussi un message d'erreur au dessus de la destination.
 Un truc du genre **"Vous devez être connecté pour gérer vos favoris"** irait parfaitement.
 
-Petit conseil entre nous, vu qu'il faut gérer des messages d'erreur à deux endroits différents, ce serait pratique d'avoir un système réutilisable 😉.
 
 ## Commentaires
 
