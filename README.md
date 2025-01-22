@@ -1,14 +1,5 @@
 # Trip O'dvisor :airplane:
 
-Salut jeune développeur. Il paraît que tu as des tripes ? Alors ce projet est fait pour toi !
-On a un projet assez révolutionnaire de conseils touristiques pour aider les gens à organiser leurs voyages. On y trouvera des avis, des guides, des bons plans sur les destinations les plus recherchées, les restaurants les plus fins, les hôtels les plus luxueux, etc.
-
-Le projet est déjà bien avancé. Tu trouveras l'intégration HTML/CSS  de la page des voyages directement dans le fichier `index.html`.
-
-Pimpant, non ?
-
-Oui c'est beau, mais ça manque de pep's. Moi je veux que ça bouge ! Il reste plein de fonctionnalités à implémenter !
-
 ## Changer de thème
 
 Notre intégrateur a prévu un thème sombre pour le site, mais pour l'instant rien ne fonctionne. Il m'a dit qu'en ajoutant la classe `theme-dark` sur la balise `body` le thème change.
